@@ -23,9 +23,10 @@ import { FaP, FaPerson } from "react-icons/fa6";
 import { ImManWoman } from "react-icons/im";
 import { MdOutlineFamilyRestroom } from "react-icons/md";
 import { TbFriends } from "react-icons/tb";
+import { Link } from "react-router-dom";
 function OnboardingCard() {
   return (
-    <div className="min-h-screen bg-neutral-100 flex items-center justify-center px-2">
+    <div className="min-h-screen bg-neutral-100 flex items-center justify-center px-2 dark:bg-gray-800">
       <Card className="w-full max-w-sm flex flex-col h-full min-h-screen">
         <div className="flex flex-col flex-grow">
           <CardHeader className="mb-1">
@@ -108,8 +109,11 @@ function OnboardingCard() {
         </div>
 
         <CardFooter className="px-4 pb-4">
-          <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg">
-            Continue
+          <Button
+            asChild
+            className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg"
+          >
+            <Link to="/landingPage">Continue</Link>
           </Button>
         </CardFooter>
       </Card>

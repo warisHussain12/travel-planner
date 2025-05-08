@@ -3,14 +3,30 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./index.css";
 import OnboardingCard from "./components/OnboardingCard.jsx";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import LandingPage from "./components/LandingPage";
+import PageNotFound from "./components/PageNotFound.jsx";
+import { ErrorBoundary } from "react-error-boundary";
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <OnboardingCard />,
+      errorElement: <PageNotFound />,
+    },
+    {
+      path: "/landingPage",
+      element: <LandingPage />,
+      errorElement: <PageNotFound />,
+    },
+  ]);
   return (
-    <div>
-      {/* <h1 className="text-4xl">Plan Your Journey, Your Way!</h1>
-      <p>Let's create your personalized travel experience</p> */}
-      <OnboardingCard />
-    </div>
+    <ErrorBoundary fallback={<p>404! Something went wrong</p>}>
+      <div>
+        <RouterProvider router={router} />
+      </div>
+    </ErrorBoundary>
   );
 }
 
