@@ -118,3 +118,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+@theme {
+  --font-display: Inter, sans-serif;
+}
