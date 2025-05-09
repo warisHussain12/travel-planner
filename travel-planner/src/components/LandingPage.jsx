@@ -27,7 +27,7 @@ function LandingPage() {
           <h2 className="pt-3">Your Upcoming Trip</h2>
           <div className="relative pt-2">
             <img
-              className="rounded-lg w-full h-auto"
+              className="rounded-lg min-w-full h-auto"
               src={tokyo2}
               alt="Tokyo Tower"
             />
