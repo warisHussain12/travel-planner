@@ -42,7 +42,7 @@ function LandingPage() {
             </div>
           </div>
           {/* Flight Details */}
-          <div className="bg-[#313DDF] text-white rounded-lg p-3 mt-3 border-[#3643FB] font-semibold">
+          <div className="bg-[#313DDF] text-white rounded-lg p-3 mt-3 border-[#3643FB]">
             <div className="flex justify-between items-start">
               <div className="flex flex-col">
                 <p>Flight Details</p>
