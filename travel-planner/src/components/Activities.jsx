@@ -15,11 +15,13 @@ import {
 function Activities() {
   return (
     <div className="p-3 mt-3 w-full">
+      {/* all the activities are inside this div with date and time */}
       <div className="flex flex-col w-full">
         <div className="flex justify-between items-center mb-2">
           <p className="text-xl">Activities</p>
           <p className="underline text-xs whitespace-nowrap">See all</p>
         </div>
+        {/* calendar */}
         <div className=" px-2 py-3 border-1 border-[#8d99ae] rounded-lg w-full max-w-sm min-h-[100px]">
           <div className="flex flex-row flex-wrap justify-start gap-2">
             <div className="border-2 border-[#313ddf] rounded-sm px-3 py-1 bg-[#313ddf]">

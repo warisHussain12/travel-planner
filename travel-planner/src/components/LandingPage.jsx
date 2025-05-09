@@ -10,7 +10,7 @@ function LandingPage() {
   return (
     <div className="min-h-screen p-3 flex items-center justify-center bg-neutral-100 dark:bg-gray-800">
       <div className="w-full max-w-sm relative">
-        {/* First Header */}
+        {/* Landing Page Header */}
         <div className="grid grid-cols-2 gap-4">
           <div>
             <h1 className="font-bold text-2xl">Hello Chhavi!</h1>
@@ -22,8 +22,8 @@ function LandingPage() {
             </div>
           </div>
         </div>
-
         <div>
+          {/* all the content of the landing page is inside this div */}
           <h2 className="pt-3">Your Upcoming Trip</h2>
           <div className="relative pt-2">
             <img
@@ -41,6 +41,7 @@ function LandingPage() {
               <p className="text-white">27.01.2025 - 02.02.2025</p>
             </div>
           </div>
+          {/* Flight Details */}
           <div className="bg-[#313DDF] text-white rounded-lg p-3 mt-3 border-[#3643FB] font-semibold">
             <div className="flex justify-between items-start">
               <div className="flex flex-col">
@@ -70,7 +71,6 @@ function LandingPage() {
           <Accomodation />
           <Activities />
         </div>
-
         <LandingPageFooter />
       </div>
     </div>

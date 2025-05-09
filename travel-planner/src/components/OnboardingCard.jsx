@@ -7,7 +7,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-// import OnboardingCardInput from "./OnboardingCardInput";
 import { Input } from "@/components/ui/input";
 import {
   Select,
@@ -24,9 +23,12 @@ import { ImManWoman } from "react-icons/im";
 import { MdOutlineFamilyRestroom } from "react-icons/md";
 import { TbFriends } from "react-icons/tb";
 import { Link } from "react-router-dom";
+
+//Home Page
 function OnboardingCard() {
   return (
     <div className="min-h-screen bg-neutral-100 flex items-center justify-center px-2 dark:bg-gray-800">
+      {/*the home page resides inside a card component*/}
       <Card className="w-full max-w-sm flex flex-col h-full min-h-screen">
         <div className="flex flex-col flex-grow">
           <CardHeader className="mb-1">

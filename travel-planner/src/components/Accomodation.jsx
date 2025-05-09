@@ -1,7 +1,6 @@
 import React from "react";
 import shinagawa from "../assets/shinagawa.png";
 import mercure from "../assets/mercure.png";
-
 import { FaClockRotateLeft } from "react-icons/fa6";
 import { CiCircleCheck } from "react-icons/ci";
 import {
@@ -12,6 +11,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+
 function Accomodation() {
   return (
     <div className="p-3 mt-3 w-full ">
@@ -22,6 +22,7 @@ function Accomodation() {
         </div>
 
         <div className="overflow-x-auto whitespace-nowrap">
+          {/* Accomodation details reside in the form of cards */}
           <div className="flex gap-3 w-[198px] h-[239px]">
             <Card className="p-0 border border-[#8d99ae] inline-block w-[198px] h-[239px]">
               <img
