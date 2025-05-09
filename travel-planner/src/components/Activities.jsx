@@ -17,7 +17,7 @@ function Activities() {
           <p className="underline text-xs whitespace-nowrap">See all</p>
         </div>
 
-        <div className=" px-2 py-3 border-1 border-[#8d99ae] rounded-lg w-full max-w-sm">
+        <div className=" px-2 py-3 border-1 border-[#8d99ae] rounded-lg w-full max-w-sm min-h-[100px]">
           <div className="flex flex-row flex-wrap justify-start gap-2">
             <div className="border-2 border-[#313ddf] rounded-sm px-3 py-1 bg-[#313ddf]">
               <p className="text-xs text-white">Day Plan</p>
@@ -28,7 +28,7 @@ function Activities() {
               </p>
             </div>
           </div>
-          <div className="h-[44px]">
+          <div className="">
             {/* date box main div */}
             <div className="flex flex-row gap-2 rounded-sm text-xs pt-2 whitespace-nowrap overflow-x-auto text-center">
               {/* a date box inside every div*/}
@@ -55,9 +55,9 @@ function Activities() {
                 <p>FRI</p>
                 <p className="font-bold">31</p>
               </div>
-              <div className="flex flex-row gap-0 items-center border border-[#313ddf] rounded-sm bg-[#808080]">
+              <div className="flex flex-row gap-0 items-center border border-[#808080] rounded-sm bg-[#808080]">
                 <p className="rotate-270 text-[#ffffff] font-semibold">FEB</p>
-                <div className="p-1 bg-[#e5e5e5] text-[#808080]">
+                <div className="p-1 bg-[#e5e5e5] text-[#808080] w-[46px] h-[44px] rounded-r-sm">
                   <p>SAT</p>
                   <p className="font-bold">1</p>
                 </div>
