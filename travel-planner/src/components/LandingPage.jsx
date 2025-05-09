@@ -4,11 +4,12 @@ import { FaArrowRight } from "react-icons/fa6";
 import tokyo2 from "../assets/tokyo2.webp";
 import Accomodation from "./Accomodation";
 import Activities from "./Activities";
+import LandingPageFooter from "./LandingPageFooter";
 
 function LandingPage() {
   return (
     <div className="min-h-screen p-3 flex items-center justify-center bg-neutral-100 dark:bg-gray-800">
-      <div className="w-full max-w-sm">
+      <div className="w-full max-w-sm relative">
         {/* First Header */}
         <div className="grid grid-cols-2 gap-4">
           <div>
@@ -69,6 +70,8 @@ function LandingPage() {
           <Accomodation />
           <Activities />
         </div>
+
+        <LandingPageFooter />
       </div>
     </div>
   );
