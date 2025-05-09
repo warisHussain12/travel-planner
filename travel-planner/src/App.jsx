@@ -23,7 +23,7 @@ function App() {
   ]);
   return (
     <ErrorBoundary fallback={<p>404! Something went wrong</p>}>
-      <div>
+      <div className="font-poppins">
         <RouterProvider router={router} />
       </div>
     </ErrorBoundary>

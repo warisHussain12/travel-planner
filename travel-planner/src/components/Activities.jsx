@@ -70,7 +70,7 @@ function Activities() {
         </div>
         <div className="py-3 rounded-lg w-full max-w-sm flex flex-row items-start gap-2">
           <div className="bg-[#313ddf] text-white rounded-lg p-1 min-w-[31%]">
-            <p className="text-xs font-bold">Day 1 27.01.2025</p>
+            <p className="text-xs font-bold">Day 1 &nbsp; 27.01.2025</p>
           </div>
           <div className="flex flex-row rounded-lg p-1 min-w-[31%]">
             <MdOutlineNordicWalking className="text-[#313ddf]" />
@@ -81,8 +81,8 @@ function Activities() {
         <div className="pr-2 mb-2 border-1 border-[#8d99ae] rounded-lg w-full max-w-sm">
           <div className="flex flex-row gap-0 items-center min-h-[127px]">
             <img className="rounded-l-lg" src={sensoji} alt="Senso-Ji" />
-            <div className="px-1 py-1 bg-[#ffffff] w-full h-[127px] rounded-r-sm flex flex-col justify-between leading-snug">
-              <div>
+            <div className="px-1 py-1 bg-[#ffffff] w-full rounded-r-sm flex flex-col justify-between leading-snug">
+              <div className="">
                 <p className="text-md font-semibold">
                   Senso-ji Temple & Nakamise Shopping Street Senso-ji
                 </p>
@@ -105,19 +105,21 @@ function Activities() {
         <div className="pr-2 mb-2 border-1 border-[#8d99ae] rounded-lg w-full max-w-sm">
           <div className="flex flex-row gap-0 items-center min-h-[127px]">
             <img className="rounded-l-lg" src={tokyosky} alt="Senso-Ji" />
-            <div className="px-1 py-4 bg-[#ffffff] w-full h-[127px] rounded-r-sm flex flex-col justify-between">
+            <div className="px-1 py-4 bg-[#ffffff] w-full min-h-[127px] rounded-r-sm flex flex-col justify-between">
               <div className="">
                 <p className="text-md font-semibold">Tokyo Sky Tree</p>
               </div>
               <div>
                 <p className="text-xs">
-                  <span className="font-semibold">Timing</span>: 8:15 am Morning
+                  <span className="font-semibold">Timing</span>: 1:00 pm
+                  Afternoon
                 </p>
                 <p className="text-xs text-bold">
                   <span className="font-semibold">Duration</span>: 3 hours
                 </p>
                 <p className="text-xs text-bold">
-                  <span className="font-semibold">Pick up</span>: From Hotel
+                  <span className="font-semibold">Pick up</span>: From Nakamise
+                  Street
                 </p>
               </div>
             </div>
@@ -127,16 +129,17 @@ function Activities() {
         <div className="pr-2 mb-2 border-1 border-[#8d99ae] rounded-lg w-full max-w-sm">
           <div className="flex flex-row gap-0 items-center min-h-[127px]">
             <img className="rounded-l-lg" src={kimono} alt="Senso-Ji" />
-            <div className="px-1 py-4 bg-[#ffffff] w-full h-[127px] rounded-r-sm flex flex-col justify-between">
+            <div className="px-1 py-4 bg-[#ffffff] w-full min-h-[127px] rounded-r-sm flex flex-col justify-between">
               <div className="">
                 <p className="text-md font-semibold">Kimono Wearing</p>
               </div>
               <div>
                 <p className="text-xs">
-                  <span className="font-semibold">Timing</span>: 8:15 am Morning
+                  <span className="font-semibold">Timing</span>: Anytime before
+                  8:00 pm
                 </p>
                 <p className="text-xs text-bold">
-                  <span className="font-semibold">Duration</span>: 3 hours
+                  <span className="font-semibold">Duration</span>: 1-2 hours
                 </p>
                 <p className="text-xs text-bold">
                   <span className="font-semibold">Pick up</span>: From Hotel

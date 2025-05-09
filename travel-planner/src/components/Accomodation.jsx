@@ -30,7 +30,7 @@ function Accomodation() {
                 alt="Shinagawa Prince Hotel"
               />
               <CardHeader className="pt-2 px-2">
-                <CardTitle className="text-base leading-snug">
+                <CardTitle className="text-sm leading-snug">
                   Shinagawa Prince Hotel
                 </CardTitle>
               </CardHeader>
@@ -56,7 +56,7 @@ function Accomodation() {
                 alt="Mercure Tokyo Hotel"
               />
               <CardHeader className="pt-2 px-2">
-                <CardTitle className="text-base leading-snug">
+                <CardTitle className="text-sm leading-snug">
                   Mercure Tokyo Hotel
                 </CardTitle>
               </CardHeader>

@@ -30,7 +30,7 @@ function OnboardingCard() {
       <Card className="w-full max-w-sm flex flex-col h-full min-h-screen">
         <div className="flex flex-col flex-grow">
           <CardHeader className="mb-1">
-            <CardTitle className="text-xl font-bold">
+            <CardTitle className="text-xl font-bold font-poppins">
               Plan Your Journey, Your Way!
             </CardTitle>
             <CardDescription>
