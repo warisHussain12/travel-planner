@@ -3,6 +3,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import { FaArrowRight } from "react-icons/fa6";
 import tokyo2 from "../assets/tokyo2.webp";
 import Accomodation from "./Accomodation";
+import Activities from "./Activities";
 
 function LandingPage() {
   return (
@@ -66,6 +67,7 @@ function LandingPage() {
             </div>
           </div>
           <Accomodation />
+          <Activities />
         </div>
       </div>
     </div>
